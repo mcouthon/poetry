@@ -1,5 +1,5 @@
 #!/bin/bash
-PYTHON_VERSIONS="cp27-cp27m cp35-cp35m cp36-cp36m cp37-cp37m cp38-cp38"
+PYTHON_VERSIONS="cp27-cp27m cp35-cp35m cp36-cp36m cp37-cp37m"
 
 cd /io
 /opt/python/cp37-cp37m/bin/pip install pip -U
@@ -10,6 +10,5 @@ cd /io
     -P "2.7:/opt/python/cp27-cp27m/bin/python" \
     -P "3.5:/opt/python/cp35-cp35m/bin/python" \
     -P "3.6:/opt/python/cp36-cp36m/bin/python" \
-    -P "3.7:/opt/python/cp37-cp37m/bin/python" \
-    -P "3.8:/opt/python/cp38-cp38/bin/python"
+    -P "3.7:/opt/python/cp37-cp37m/bin/python"
 cd -
